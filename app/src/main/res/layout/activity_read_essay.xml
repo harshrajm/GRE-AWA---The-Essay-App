@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_read_essay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical"
+    tools:context="com.burntcarlabs.greawa.ReadEssayActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/essay_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingBottom="3dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                tools:text="In order to save a considerable amount of money, Rockingham's century-old town hall should be torn down and replaced by the larger and more energy-efficient building that some citizens have proposed. The old town hall is too small to comfortably accommodate the number of people who are employed by the town. In addition, it is very costly to heat the old hall in winter and cool it in summer. The new, larger building would be more energy efficient, costing less per square foot to heat and cool than the old hall. Furthermore, it would be possible to rent out some of the space in the new building, thereby generating income for the town of Rockingham "
+                android:text="In order to save a considerable amount of money, Rockingham's century-old town hall should be torn down and replaced by the larger and more energy-efficient building that some citizens have proposed. The old town hall is too small to comfortably accommodate the number of people who are employed by the town. In addition, it is very costly to heat the old hall in winter and cool it in summer. The new, larger building would be more energy efficient, costing less per square foot to heat and cool than the old hall. Furthermore, it would be possible to rent out some of the space in the new building, thereby generating income for the town of Rockingham "
+                />
+
+
+            <TextView
+                android:id="@+id/essay_answer"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#212121"
+                tools:text="According to the conclusion of this editorial, the new and larger building of town hall in place of the old one will help in saving money and energy. However, many points given in support of the views of the writer are not very convincing. Although, there is no doubt that the new proposed building will have many advantages over the old town hall, but the author has ignored to mention many important points. He has completely failed to provide evidence for his reasons to build the new building. The points given by the author have no relevant relation among themselves. For example, the cost effectiveness and the fact that the old building is not able to accommodate its employees are not related anywhere. He has tried to explain the need of the new town hall but has neglected to suggest the alternative measures that can be taken to solve the problems faced by the old town hall.
+
+
+The author has talked about the larger and the energy efficient new building. According to him, it would cost less per cubic foot to heat and cool the new building as compared to the old town hall building. However, he has easily forgotten to mention the overall cost of heating and cooling the much larger new building. This cost might be much higher than the current expenses. In addition, there will be the costs of constructing the new building and installing new systems. The author has not even mentioned the option of installing new heating and cooling systems in the old building. The upgradation of the old system might be more cost effective. Besides, the new building might also need some maintenance fee to maintain the new facilities added to the building.
+
+
+The second point on which the author is insisting is that the current building cannot comfortably accommodate all the people who work in it. This point is anyways not related to the money saving measures the author is talking about. Here again, the author has ignored other more effective solutions for this problem. For example, adding another structure for the employees.
+
+
+Another point is about the renting out of the parts of the new property to generate some income. However, the views of the author are contradictory as on one hand, he is explaining the need of a larger building and on the other hand, he is talking about the renting out some part of property. Hence, if the new and larger building is the need of the hour then there is no scope of additional income. The author has failed to give enough and strong evidence for the requirement of the new building. He has also forgotten to consider the heritage value of the Rockingham's century old town hall.
+
+
+Hence, the author has to collect more information about the old building. The author must search for some solid evidence. He should do a complete and detailed study of comparing the cost effectiveness of both the options including the initial cost of setting up the new building and replacing the old heating system in the old building. The author has to work towards making his editorial logically more correct. "
+                android:text="According to the conclusion of this editorial, the new and larger building of town hall in place of the old one will help in saving money and energy. However, many points given in support of the views of the writer are not very convincing. Although, there is no doubt that the new proposed building will have many advantages over the old town hall, but the author has ignored to mention many important points. He has completely failed to provide evidence for his reasons to build the new building. The points given by the author have no relevant relation among themselves. For example, the cost effectiveness and the fact that the old building is not able to accommodate its employees are not related anywhere. He has tried to explain the need of the new town hall but has neglected to suggest the alternative measures that can be taken to solve the problems faced by the old town hall.
+
+
+The author has talked about the larger and the energy efficient new building. According to him, it would cost less per cubic foot to heat and cool the new building as compared to the old town hall building. However, he has easily forgotten to mention the overall cost of heating and cooling the much larger new building. This cost might be much higher than the current expenses. In addition, there will be the costs of constructing the new building and installing new systems. The author has not even mentioned the option of installing new heating and cooling systems in the old building. The upgradation of the old system might be more cost effective. Besides, the new building might also need some maintenance fee to maintain the new facilities added to the building.
+
+
+The second point on which the author is insisting is that the current building cannot comfortably accommodate all the people who work in it. This point is anyways not related to the money saving measures the author is talking about. Here again, the author has ignored other more effective solutions for this problem. For example, adding another structure for the employees.
+
+
+Another point is about the renting out of the parts of the new property to generate some income. However, the views of the author are contradictory as on one hand, he is explaining the need of a larger building and on the other hand, he is talking about the renting out some part of property. Hence, if the new and larger building is the need of the hour then there is no scope of additional income. The author has failed to give enough and strong evidence for the requirement of the new building. He has also forgotten to consider the heritage value of the Rockingham's century old town hall.
+
+
+Hence, the author has to collect more information about the old building. The author must search for some solid evidence. He should do a complete and detailed study of comparing the cost effectiveness of both the options including the initial cost of setting up the new building and replacing the old heating system in the old building. The author has to work towards making his editorial logically more correct."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"/>
+
+
+</RelativeLayout>

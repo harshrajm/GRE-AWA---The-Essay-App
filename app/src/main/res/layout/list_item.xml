@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item in the list of pets -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/read_status"
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+
+        android:background="#FFD54F"
+        />
+
+    <TextView
+        android:id="@+id/essay_topic_optimized"
+        android:textSize="16dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/secondary_text_light"
+        tools:text="A recent study shows that people living on the continent of North America suffer 9 times more chronic fatigue and 31 times more chronic..." />
+</LinearLayout>
